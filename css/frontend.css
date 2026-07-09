@@ -1,0 +1,47 @@
+.venture-native-ads-wrapper {
+    max-width: 100%;
+    margin: 30px 0;
+    position: relative;
+}
+
+.venture-ad-container {
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.venture-ad-container.visible {
+    opacity: 1;
+}
+
+.venture-ad-container a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.venture-ad-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.venture-ad-container .ad-content {
+    padding: 12px 15px;
+    font-size: 0.95em;
+    color: #333;
+}
+
+.venture-ad-container .ad-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.venture-ad-container .ad-url {
+    color: #0073aa;
+    word-break: break-all;
+    font-size: 0.9em;
+}
